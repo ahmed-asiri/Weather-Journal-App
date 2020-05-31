@@ -1,0 +1,18 @@
+
+@media (max-width: 500px) {
+    body .row {
+        width: 300px !important;
+    }
+
+    html {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 170%;
+    }
+
+    h2{ 
+        font-size: 130%;
+    }
+}

@@ -1,0 +1,112 @@
+@import "query.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
+
+.row {
+    width: 500px;
+    margin: auto;
+}
+
+
+.page-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    color: #4ea1d3;
+}
+
+
+header, .input-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-container {
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input-container .row {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+
+input {
+    width: 200px;
+    height: 32px;
+}
+
+
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #e85a71;
+    color: #fefefe;
+    border: 1px solid #ce4f64;
+    cursor: pointer;
+}
+
+
+textarea, input, button {
+    margin-bottom: 20px;
+}
+
+
+textarea, input {
+    border: none;
+    padding: 5px;
+    outline-color: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+}
+
+
+textarea:focus,
+textarea:active,
+input:focus, 
+input:active {
+    outline: none;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-size: 80%;
+    text-transform: capitalize;
+}
+
+#enrtyHolder {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #d8e9ef;
+
+}
+
+h2 {
+    color: #454552;
+    margin-bottom: 10px;
+}
+
