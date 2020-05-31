@@ -1,4 +1,3 @@
-
 const apiKey = "&appid=2baff2098880935b707c44faba28e10b";
 const baseURL = "http://api.openweathermap.org/data/2.5/weather?zip=";
 
@@ -33,6 +32,7 @@ function action() {
         });
 }
 
+
 async function getDataFromExternalAPI(baseURL, zip, apiKey){
     // retrieving data from the external API according to the user zip input
     let url = baseURL + zip + apiKey;
@@ -43,7 +43,6 @@ async function getDataFromExternalAPI(baseURL, zip, apiKey){
     }
     return Promise.reject(response);
 }
-
 
 
 async function postData(path = "/", data = {}) {

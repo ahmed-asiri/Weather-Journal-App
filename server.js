@@ -14,6 +14,7 @@ app.use(express.static("public"));
 
 let projectData = [];
 
+
 app.get('/allData', (req, res) => {
     res.send(projectData);
 });
