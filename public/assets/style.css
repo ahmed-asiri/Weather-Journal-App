@@ -1,5 +1,6 @@
 @import "query.css";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -98,6 +99,7 @@ label {
     text-transform: capitalize;
 }
 
+
 #enrtyHolder {
     padding: 8px;
     border-radius: 10px;
@@ -105,8 +107,14 @@ label {
 
 }
 
+
 h2 {
     color: #454552;
     margin-bottom: 10px;
+}
+
+
+#enrtyHolder div{
+    margin-bottom: 5px;
 }
 
